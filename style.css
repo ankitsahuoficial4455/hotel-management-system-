@@ -221,4 +221,31 @@ footer {
     footer {
         font-size: 14px;
     }
+}/* Professional Home Hero */
+.hero {
+    min-height: 500px;
+    padding: 120px 20px;
+    text-align: center;
+    color: white;
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("https://images.unsplash.com/photo-1566073771259-6a8506099945");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.hero .btn {
+    margin: 8px;
 }
